@@ -1,8 +1,8 @@
 class Pdf2pptxVector < Formula
   desc "Convert PDF slide decks to PPTX using full-slide SVGs"
-  homepage "https://github.com/OWNER/pdf2pptx-vector"
+  homepage "https://github.com/lee-jongwoo/pdf2pptx-vector"
   url "https://registry.npmjs.org/pdf2pptx-vector/-/pdf2pptx-vector-0.1.0.tgz"
-  sha256 "REPLACE_WITH_RELEASE_TARBALL_SHA256"
+  sha256 "a92bc600b1876b1bc4ae51311aaf960c3c03ab2db13dd9e6c4949573dc12057a"
   license "MIT"
 
   depends_on "node"
