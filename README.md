@@ -4,17 +4,19 @@ Convert a presentation PDF into a PowerPoint deck with one full-slide SVG per PD
 
 This tool is meant for decks exported from apps like Keynote. It does not reconstruct editable PowerPoint objects and does not rasterize slides by default.
 
-## Requirements
+## Install
 
-- macOS
-- Node.js
-- `pdf2svg`
-- `pdfinfo` from Poppler
-
-With Homebrew:
+with Homebrew
 
 ```bash
-brew install node pdf2svg poppler
+brew tap lee-jongwoo/pdf2pptx-vector
+brew install pdf2pptx-vector
+```
+
+with npm
+
+```bash
+npm install -g pdf2pptx-vector
 ```
 
 ## Usage
