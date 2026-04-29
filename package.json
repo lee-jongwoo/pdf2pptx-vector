@@ -2,13 +2,24 @@
   "name": "pdf2pptx-vector",
   "version": "0.1.0",
   "description": "Convert PDF slide decks to PPTX with one full-slide SVG per page.",
+  "homepage": "https://github.com/lee-jongwoo/pdf2pptx-vector#readme",
+  "bugs": {
+    "url": "https://github.com/lee-jongwoo/pdf2pptx-vector/issues"
+  },
   "bin": {
     "pdf2pptx": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "npm run build && node tests/run-tests.js",
-    "doctor": "npm run build && node dist/cli.js doctor"
+    "doctor": "npm run build && node dist/cli.js doctor",
+    "prepack": "npm run build",
+    "pack:check": "npm pack --dry-run"
   },
   "dependencies": {
     "pptxgenjs": "^4.0.1"
